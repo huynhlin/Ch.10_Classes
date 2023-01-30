@@ -12,6 +12,8 @@ import arcade
 import random
 arcade.open_window(500, 300, "1000 Circles")
 arcade.start_render()
+
+
 class Circle:
     def __init__(self):
         self.x = random.randint(1, 500)
